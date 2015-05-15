@@ -1,10 +1,8 @@
-# RAT Examples
+# RAT-179 example
 
-Since code is easier than documentation this project is supposed to contain some
-examples on how to configure Creadur RAT from ASF.
+This example shows how to add newly approved licenses and merge this license with the known defaults during RAT runs.
 
-* http://creadur.apache.org/rat/apache-rat-plugin/check-mojo.html
-* http://creadur.apache.org/rat/
+## Works with
 
-In case of errors feel free to contact me or start a pull request :-)
+Release 0.12 or the current 0.12-SNAPSHOT
 
