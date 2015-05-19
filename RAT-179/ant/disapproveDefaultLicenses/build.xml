@@ -59,7 +59,6 @@
 			</classpath>
 		</taskdef>
 
-// TODO how do I set it to false?
 		<rat:report addDefaultLicenseMatchers="false">
 			<rat:substringMatcher licenseFamilyCategory="JQMIT" licenseFamilyName="jQuery UI CSS MIT">
 				<pattern substring="Copyright 2014 jQuery Foundation and other contributors; Licensed MIT"/>
