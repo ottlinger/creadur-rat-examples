@@ -196,9 +196,10 @@
 <p>The <a class="externalLink" href="https://creadur.apache.org">Apache Creadur</a> project, the community that develops <a class="externalLink" href="https://creadur.apache.org/rat">Apache Rat</a>, hosts its website on the <a class="externalLink" href="https://www.apache.org/dev/cms.html">ASF Content Management System</a>. <a class="externalLink" href="https://maven.apache.org">Apache Maven</a> builds Rat, and generates this subsite. Here's (one way) to work with these systems.</p>
 <div class="section">
 <h3><a name="Developing_Content"></a>Developing Content</h3>
-<p>Build and generate the site using Maven the usual way. A plain site does not generate a fully complete page, thus:</p>
+<p>Build and generate the site using Maven the usual way. A plain 'site' does not generate a fully complete page, thus:</p>
 <div class="source">
 <pre>mvn clean site site:stage</pre></div>
+<p>This will generate a complete page under 'target/staging'.</p>
 <p>Make your changes to the <tt>site.xml</tt> and/or <tt>.apt</tt> files then launch a server on <tt>localhost:8080</tt> using</p>
 <div class="source">
 <pre> mvn site:run</pre></div>
