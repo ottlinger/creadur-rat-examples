@@ -129,8 +129,8 @@ var activeTableTab = "activeTableTab";
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#attribute-java.lang.CharSequence-java.lang.CharSequence-">attribute</a></span>(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;name,
-         <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;value)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#attribute-java.lang.CharSequence-java.lang.CharSequence-">attribute</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;name,
+         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;value)</code>
 <div class="block">Writes an attribute of an element.</div>
 </td>
 </tr>
@@ -148,13 +148,13 @@ var activeTableTab = "activeTableTab";
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#content-java.lang.CharSequence-">content</a></span>(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;content)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#content-java.lang.CharSequence-">content</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;content)</code>
 <div class="block">Writes content.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-">openElement</a></span>(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;elementName)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-">openElement</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;elementName)</code>
 <div class="block">Writes the start of an element.</div>
 </td>
 </tr>
@@ -186,7 +186,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>startDocument</h4>
 <pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;startDocument()
-                  throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+                  throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Starts a document by writing a prolog.
  Calling this method is optional.
  When writing a document fragment, it should <em>not</em> be called.</div>
@@ -196,7 +196,7 @@ var activeTableTab = "activeTableTab";
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called after the first element has been written
  or once a prolog has already been written</dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -206,8 +206,8 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>openElement</h4>
-<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;openElement(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;elementName)
-                throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;openElement(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;elementName)
+                throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Writes the start of an element.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -217,7 +217,7 @@ var activeTableTab = "activeTableTab";
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/InvalidXmlException.html" title="class in org.apache.rat.report.xml.writer">InvalidXmlException</a></code> - if the name is not valid for an xml element</dd>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called after the first element has been closed</dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -227,9 +227,9 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>attribute</h4>
-<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;attribute(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;name,
-                     <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;value)
-              throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;attribute(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;name,
+                     <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;value)
+              throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Writes an attribute of an element.
  Note that this is only allowed directly after <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-"><code>openElement(CharSequence)</code></a>
  or <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#attribute-java.lang.CharSequence-java.lang.CharSequence-"><code>attribute(java.lang.CharSequence, java.lang.CharSequence)</code></a>.</div>
@@ -244,7 +244,7 @@ var activeTableTab = "activeTableTab";
  or if a value for the attribute has already been written</dd>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called after <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#content-java.lang.CharSequence-"><code>content(CharSequence)</code></a> 
  or <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#closeElement--"><code>closeElement()</code></a> or before any call to <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-"><code>openElement(CharSequence)</code></a></dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -254,8 +254,8 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>content</h4>
-<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;content(<a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;content)
-            throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;content(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html?is-external=true" title="class or interface in java.lang">CharSequence</a>&nbsp;content)
+            throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Writes content.
  Calling this method will automatically 
  Note that this method does not use CDATA.</div>
@@ -267,7 +267,7 @@ var activeTableTab = "activeTableTab";
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called before any call to <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-"><code>openElement(java.lang.CharSequence)</code></a> 
  or after the first element has been closed</dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -278,7 +278,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>closeElement</h4>
 <pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;closeElement()
-                 throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+                 throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Closes the last element written.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
@@ -286,7 +286,7 @@ var activeTableTab = "activeTableTab";
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called before any call to <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-"><code>openElement(java.lang.CharSequence)</code></a> 
  or after the first element has been closed</dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -297,7 +297,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>closeDocument</h4>
 <pre><a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html" title="interface in org.apache.rat.report.xml.writer">IXmlWriter</a>&nbsp;closeDocument()
-                  throws <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+                  throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
 <div class="block">Closes all pending elements.
  When appropriate, resources are also flushed and closed.
  No exception is raised when called upon a document whose
@@ -307,7 +307,7 @@ var activeTableTab = "activeTableTab";
 <dd>this object</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="../../../../../../org/apache/rat/report/xml/writer/OperationNotAllowedException.html" title="class in org.apache.rat.report.xml.writer">OperationNotAllowedException</a></code> - if called before any call to <a href="../../../../../../org/apache/rat/report/xml/writer/IXmlWriter.html#openElement-java.lang.CharSequence-"><code>openElement(java.lang.CharSequence)</code></a></dd>
-<dd><code><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
 </dl>
 </li>
 </ul>
