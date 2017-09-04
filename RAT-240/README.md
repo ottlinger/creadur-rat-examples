@@ -1,8 +1,6 @@
 # RAT-204 example
 
-In case of no unapproved files the report looks slightly different - 
-there is no paragraph telling the numbers about unapproved files and 
-no file contents is shown.
+Ignore files explicitly in subfolder.
 
 ## Works with
 
