@@ -28,8 +28,9 @@
         <artifactId>apache-rat-plugin</artifactId>
         <version>0.13-SNAPSHOT</version>
         <configuration>
+          <!-- includes binary directory -->
+          <excludesFile>.rat-excludes</excludesFile>
           <excludes>
-            <exclude>binary/**</exclude>
             <exclude>README.md</exclude>
             <exclude>foo/ignoreMe</exclude>
           </excludes>
