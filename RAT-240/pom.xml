@@ -29,6 +29,7 @@
         <version>0.13-SNAPSHOT</version>
         <configuration>
           <excludes>
+            <exclude>binary/**</exclude>
             <exclude>README.md</exclude>
             <exclude>foo/ignoreMe</exclude>
           </excludes>
