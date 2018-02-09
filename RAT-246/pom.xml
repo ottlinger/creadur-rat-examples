@@ -28,7 +28,6 @@
         <artifactId>apache-rat-plugin</artifactId>
         <version>0.13-SNAPSHOT</version>
         <configuration>
-          <addDefaultLicenseMatchers>true</addDefaultLicenseMatchers>
           <parseSCMIgnoresAsExcludes>true</parseSCMIgnoresAsExcludes>
         </configuration>
       </plugin>
