@@ -3,6 +3,10 @@
 This page contains findings about how RAT is released ....
 as I tried to forge a 0.13 release at around 2018-05.
 
+# ASF setup
+
+* https://www.apache.org/dev/publishing-maven-artifacts.html
+
 # Basic setup: the regular Maven release plugin process
 
 ```
