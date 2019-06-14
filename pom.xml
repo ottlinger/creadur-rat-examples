@@ -26,6 +26,12 @@
     <module>RAT-246</module>
     <module>RAT-255</module>
   </modules>
+  <properties>
+    <rat.version>0.13</rat.version>
+    <encoding.utf8>UTF-8</encoding.utf8>
+    <project.reporting.outputEncoding>${encoding.utf8}</project.reporting.outputEncoding>
+    <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
+  </properties>
   <build>
     <defaultGoal>clean install</defaultGoal>
     <pluginManagement>
