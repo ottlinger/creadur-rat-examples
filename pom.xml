@@ -22,6 +22,8 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
+    <module>RAT-202-report-without-unapproved-files</module>
+    <module>RAT-202-report-with-unapproved-files</module>
     <module>RAT-240</module>
     <module>RAT-246</module>
     <module>RAT-255</module>
