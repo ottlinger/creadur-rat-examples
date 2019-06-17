@@ -12,4 +12,4 @@ In case of errors feel free to contact <a href="&#109;&#97;&#105;&#108;&#116;&#1
 
 In order to run all examples a main pom.xml is provided that is taken into account from Travis.
 
-[![Build Status](https://travis-ci.org/ottlinger/icreadur-rat-examples.svg?branch=master)](https://travis-ci.org/ottlinger/creadur-rat-examples)
+[![Build Status](https://travis-ci.org/ottlinger/creadur-rat-examples.svg?branch=master)](https://travis-ci.org/ottlinger/creadur-rat-examples)
