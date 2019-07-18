@@ -28,6 +28,7 @@
     <module>RAT-246</module>
     <module>RAT-255</module>
     <module>RAT-179/maven/activate-default-licenses-and-add-new-ones</module>
+    <module>RAT-179/maven/deactivate-default-licenses-and-add-new-ones</module>
   </modules>
   <properties>
     <rat.version>0.13</rat.version>
