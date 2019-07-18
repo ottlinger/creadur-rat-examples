@@ -22,14 +22,13 @@
     <artifactId>creadur-rat-examples-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>deactivate-default-licenses-and-add-new-ones</artifactId>
+  <artifactId>RAT-179-deactivate-default-licenses-and-add-new-ones</artifactId>
   <build>
     <defaultGoal>apache-rat:check</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <version>0.12</version>
         <configuration>
           <numUnapprovedLicenses>1</numUnapprovedLicenses>
           <addDefaultLicenseMatchers>false</addDefaultLicenseMatchers>
