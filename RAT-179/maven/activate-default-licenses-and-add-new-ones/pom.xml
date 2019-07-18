@@ -17,16 +17,18 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.rat.test.rat179</groupId>
-  <artifactId>activate-default-licenses-and-add-new-ones</artifactId>
-  <version>1.0</version>
+  <parent>
+    <groupId>org.apache.rat.test.examples</groupId>
+    <artifactId>creadur-rat-examples-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>RAT-179-activate-default-licenses-and-add-new-ones</artifactId>
   <build>
     <defaultGoal>apache-rat:check</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <version>0.12</version>
         <configuration>
           <addDefaultLicenseMatchers>true</addDefaultLicenseMatchers>
           <licenses>
