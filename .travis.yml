@@ -2,9 +2,9 @@ language: java
 jdk:
   - openjdk8
 # As long as travis/Ubuntu problem exists only run with one JDK
-  - openjdk9
-  - openjdk10
-  - openjdk11
+#  - openjdk9
+#  - openjdk10
+#  - openjdk11
 # Not possible with language level 1.6
 #  - openjdk12
 #before_script:
