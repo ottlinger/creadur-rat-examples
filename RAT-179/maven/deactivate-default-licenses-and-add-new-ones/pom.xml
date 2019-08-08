@@ -21,6 +21,7 @@
     <groupId>org.apache.rat.test.examples</groupId>
     <artifactId>creadur-rat-examples-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../../..</relativePath>
   </parent>
   <artifactId>RAT-179-deactivate-default-licenses-and-add-new-ones</artifactId>
   <build>
