@@ -10,11 +10,11 @@ as I tried to forge a 0.13 release at around 2018-05.
 # Basic setup: the regular Maven release plugin process
 
 ```
-mvn release:prepare -DdryRun=true
-mvn deploy
-mvn release:clean
-mvn release:prepare
-mvn release:perform
+$ mvn release:prepare -DdryRun=true
+$ mvn deploy
+$ mvn release:clean
+$ mvn release:prepare
+$ mvn release:perform
 ```
 
 # Applied to RAT ....
