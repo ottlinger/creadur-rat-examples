@@ -54,7 +54,7 @@ project (org.apache.rat:apache-rat-project). -> [Help 1]
 [ERROR]
 ```
 
-## Q:Where do release artefacts land finally?
+## Q:Where are release artefacts finally deployed to?
 
 * https://www.apache.org/dist/creadur/
  
