@@ -1,4 +1,4 @@
-# creadur-rat-examples - RAT Examples
+# Ever wondered how to use Apache Creadur RAT? Here's creadur-rat-examples
 
 Since living code is easier than documentation this project is supposed to contain some
 examples on how to configure Creadur RAT from ASF.
