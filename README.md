@@ -14,7 +14,7 @@ In order to run all examples a main pom.xml is provided that is taken into accou
 
 [![Build Status](https://travis-ci.org/ottlinger/creadur-rat-examples.svg)](https://travis-ci.org/ottlinger/creadur-rat-examples)
 
-## Exceptions
+## Examples that work with newer SNAPSHOT versions only
 
 In some cases features only work with the current SNAPSHOT version and are disabled here:
 
