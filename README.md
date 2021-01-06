@@ -14,6 +14,10 @@ In order to run all examples a main pom.xml is provided that is taken into accou
 
 [![Build Status](https://travis-ci.org/ottlinger/creadur-rat-examples.svg)](https://travis-ci.org/ottlinger/creadur-rat-examples)
 
+## Codacy 
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/00f1aaecada54cf09c9b505e410a0a11)](https://www.codacy.com/gh/ottlinger/creadur-rat-examples/dashboard)
+
 ## Examples that work with newer SNAPSHOT versions only
 
 In some cases features only work with the current SNAPSHOT version and are disabled here:
