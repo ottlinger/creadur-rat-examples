@@ -22,4 +22,4 @@ In order to run all examples a main pom.xml is provided that is taken into accou
 
 In some cases features only work with the current SNAPSHOT version and are disabled here:
 
-* RAT-262: requires a recent 0.14-SNAPSHOT with ignoring JSON-capabilities
+* [RAT-262](https://issues.apache.org/jira/browse/RAT-262): requires a recent 0.14-SNAPSHOT with ignoring JSON-capabilities
