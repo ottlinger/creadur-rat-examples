@@ -29,11 +29,10 @@
     <module>RAT-255</module>
     <module>RAT-179/maven/activate-default-licenses-and-add-new-ones</module>
     <module>RAT-179/maven/deactivate-default-licenses-and-add-new-ones</module>
-    <!-- TODO after 0.14 is released -->
-    <!--module>RAT-262</module-->
+    <module>RAT-262</module>
   </modules>
   <properties>
-    <rat.version>0.13</rat.version>
+    <rat.version>0.14</rat.version>
     <encoding.utf8>UTF-8</encoding.utf8>
     <project.reporting.outputEncoding>${encoding.utf8}</project.reporting.outputEncoding>
     <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
