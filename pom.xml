@@ -32,7 +32,7 @@
     <module>RAT-262</module>
   </modules>
   <properties>
-    <rat.version>0.14</rat.version>
+    <rat.version>0.15</rat.version>
     <encoding.utf8>UTF-8</encoding.utf8>
     <project.reporting.outputEncoding>${encoding.utf8}</project.reporting.outputEncoding>
     <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
