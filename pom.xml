@@ -38,7 +38,7 @@
     <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
   </properties>
   <build>
-    <defaultGoal>clean versions:display-dependency-updates versions:display-plugin-updates enforcer:display-info install org.pitest:pitest-maven:mutationCoverage</defaultGoal>
+    <defaultGoal>clean versions:display-dependency-updates versions:display-plugin-updates install org.pitest:pitest-maven:mutationCoverage</defaultGoal>
     <pluginManagement>
       <plugins>
         <plugin>
