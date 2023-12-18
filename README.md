@@ -13,12 +13,6 @@ In case of errors feel free to contact <a href="&#109;&#97;&#105;&#108;&#116;&#1
 
 GA: [![Github Action master branch status](https://github.com/ottlinger/creadur-rat-examples/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/ottlinger/creadur-rat-examples/actions)
 
-## Travis integration
-
-In order to run all examples a main pom.xml is provided that is taken into account from Travis.
-
-[![Build Status](https://travis-ci.org/ottlinger/creadur-rat-examples.svg)](https://travis-ci.org/ottlinger/creadur-rat-examples)
-
 ## Codacy
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/00f1aaecada54cf09c9b505e410a0a11)](https://www.codacy.com/gh/ottlinger/creadur-rat-examples/dashboard)
