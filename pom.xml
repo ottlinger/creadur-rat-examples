@@ -33,13 +33,13 @@
     <module>RAT-343</module>
   </modules>
   <properties>
-    <rat.version>0.16</rat.version>
+    <rat.version>0.16.1-SNAPSHOT</rat.version>
     <encoding.utf8>UTF-8</encoding.utf8>
     <project.reporting.outputEncoding>${encoding.utf8}</project.reporting.outputEncoding>
     <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
   </properties>
   <build>
-    <defaultGoal>clean versions:display-dependency-updates versions:display-plugin-updates install org.pitest:pitest-maven:mutationCoverage</defaultGoal>
+    <defaultGoal>clean apache-rat:check</defaultGoal>
     <pluginManagement>
       <plugins>
         <plugin>
