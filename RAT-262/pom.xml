@@ -31,7 +31,7 @@
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <!-- older versions fail to ignore JSON -->
-        <version>0.16</version>
+        <version>0.16.1</version>
         <configuration>
           <addDefaultLicenseMatchers>true</addDefaultLicenseMatchers>
           <excludes>node_modules/**</excludes>
