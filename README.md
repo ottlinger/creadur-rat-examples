@@ -21,4 +21,4 @@ GA: [![Github Action master branch status](https://github.com/ottlinger/creadur-
 
 In some cases features only work with the current SNAPSHOT version and are disabled here:
 
-* none, as 0.14 is out as of 2022-06-13
+* none, as 0.17 is out as of 2025-10-17
