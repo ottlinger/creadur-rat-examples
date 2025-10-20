@@ -31,6 +31,8 @@
         <artifactId>apache-rat-plugin</artifactId>
         <configuration>
           <parseSCMIgnoresAsExcludes>true</parseSCMIgnoresAsExcludes>
+          <editOverwrite>true</editOverwrite>
+          <editLicense>true</editLicense>
         </configuration>
       </plugin>
     </plugins>

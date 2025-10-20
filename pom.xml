@@ -46,12 +46,20 @@
           <groupId>org.apache.rat</groupId>
           <artifactId>apache-rat-plugin</artifactId>
           <version>${rat.version}</version>
+          <executions>
+            <execution>
+              <phase>verify</phase>
+              <goals>
+                <goal>check</goal>
+              </goals>
+            </execution>
+          </executions>
           <configuration>
-            <excludes>
+            <inputExcludes>
               <exclude>**/*.md</exclude>
               <exclude>**/RAT-179/ant/**</exclude>
               <exclude>**/.github/**</exclude>
-            </excludes>
+            </inputExcludes>
           </configuration>
         </plugin>
         <plugin>

@@ -31,10 +31,11 @@
         <configuration>
           <!-- includes binary directory -->
           <excludesFile>.rat-excludes</excludesFile>
-          <excludes>
+          <inputExcludes>
+            <exclude>.rat-excludes</exclude>
             <exclude>README.md</exclude>
             <exclude>foo/ignoreMe</exclude>
-          </excludes>
+          </inputExcludes>
         </configuration>
       </plugin>
     </plugins>
